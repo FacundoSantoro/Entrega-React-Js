@@ -1,0 +1,45 @@
+body{
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+}
+.nav-purple {
+  color: rgb(80, 5, 80);
+  background-color: rgb(147, 64, 147);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  margin: 0;
+  padding: 0%;
+}
+nav h1{
+font-size: 40px;
+}
+nav ul{
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+nav ul li{
+  padding: 20px 80px;
+}
+nav ul li a{
+  color: rgb(80, 5, 80);
+  text-decoration: none;
+  list-style: none;
+  font-size: 20px;
+}
+.msj-bienvenida{
+  text-align: center;
+  background-color: gray;
+  color: rgb(69, 35, 69);
+  height: 50vh;
+  align-content: center;
+}
+div h1{
+  padding: 40px;
+}
+
+
