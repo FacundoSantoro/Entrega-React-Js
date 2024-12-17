@@ -4,7 +4,10 @@ export default function Navbar(props){
     const {color} = props;
     return (
     <nav className={`nav-${color}`}>
-        <h1>ElManá</h1>
+        <div>
+            <img src="/images/logocjs.png" alt="logo callejeros" />
+            <h1>Tienda Callejera</h1>
+        </div>
         <ul>
             <li>
                 <a href="">Productos</a>
@@ -16,7 +19,9 @@ export default function Navbar(props){
                 <a href="">Contacto</a>
             </li>
         </ul>
-        <CartWidget></CartWidget>
+        <div className="carrito">
+            <CartWidget></CartWidget>
+        </div>
     </nav>
     )
 }
